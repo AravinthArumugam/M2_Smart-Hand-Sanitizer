@@ -19,7 +19,7 @@ The goal of creating this tool is to reduce direct contact with other users, and
    
 The Atmel 8-bit AVR RISC-based microcontroller includes 32 KB ISP flash memory with read-while-write capabilities, 1 KB EEPROM, 2 KB SRAM, 23 general-purpose I/O lines, 32 general-purpose working registers, 3 flexible timer/counters with compare modes, internal and external interrupts, serial programmable USART, a byte-oriented 2-wire serial interface, SPI serial port, 6-channel 10-bit A/D converter
       
-## VIBRATION SENSOR 
+## SERVO MOTOR
  
 A servo motor is actually a rotary actuator which gives a precise control in terms of its angular position, acceleration, and velocity. A servo motor works on the principle of PWM (Pulse width modulation). This implies that depending on the width of the pulse that is applied the rotor will turn in the desire position. For this interfacing, an SG90 servo motor is used. 
 
