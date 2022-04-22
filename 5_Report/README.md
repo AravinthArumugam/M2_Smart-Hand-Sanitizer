@@ -21,9 +21,11 @@ The Atmel 8-bit AVR RISC-based microcontroller includes 32 KB ISP flash memory w
       
 ## VIBRATION SENSOR 
  
-A piezoelectric sensor is another name for a vibration sensor. These sensors are adaptable devices that are used to measure a variety of processes. This sensor employs piezoelectric effects to measure changes in acceleration, pressure, temperature, force, or strain by converting them to an electrical charge. This sensor is also used to determine fragrances in the air by measuring capacitance and quality in real time.
+A servo motor is actually a rotary actuator which gives a precise control in terms of its angular position, acceleration, and velocity. A servo motor works on the principle of PWM (Pulse width modulation). This implies that depending on the width of the pulse that is applied the rotor will turn in the desire position. For this interfacing, an SG90 servo motor is used. 
 
-The sensitivity of these sensors typically ranges from 10 mV/g to 100 mV/g, with lower and higher sensitivities available. The sensor's sensitivity can be chosen based on the application. As a result, it is critical to understand the levels of vibration amplitude range to which the sensor will be subjected during measurements.
+The white piece in the picture is a rotor and is controlled by a bunch of gears inside. If a DC source powers the motor then it is called a DC servo motor and if powered by an AC source then it is called an AC servo motor.
+
+
       
 ## ULTRASONIC SENSOR 
 
