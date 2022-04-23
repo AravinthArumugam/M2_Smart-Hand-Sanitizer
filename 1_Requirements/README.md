@@ -5,6 +5,11 @@
 The "Smart Hand Sanitizer" is an automatic hand sanitizer that detects an object using an ultrasonic sensor. This hand sanitizer is suitable for both individuals and businesses, as it employs IoT to track the number of users based on the amount of strain exerted to the hydraulic pump.
      
 The goal of creating this tool is to reduce direct contact with other users, and we hope that it will assist a firm or individual in determining the number of users of this tool so that they can determine whether the location of this hand sanitizer was appropriate. As a result, they could relocate to a more efficient location where they could reach a bigger number of individuals.
+
+## OBJECTIVES 
+
+The main objective of this research paper is to design and implement a low cost touch free smart hand sanitizer dispenser with door controller that includes features such as ultrasonic sensor, LCD display and servo motor, based on Microcontroller. To design a touch less hand sanitizer dispenser. 
+
      
 ## COMPONENTS:
 
@@ -62,9 +67,20 @@ High-frequency sound waves reflect from boundaries to produce distinct echo patt
 
   * Flammable in nature 
   
-## OBJECTIVES 
 
-The main objective of this research paper is to design and implement a low cost touch free smart hand sanitizer dispenser with door controller that includes features such as ultrasonic sensor, LCD display and servo motor, based on Microcontroller. To design a touch less hand sanitizer dispenser. 
+## HIGH LEVEL REQUIREMENTS:
+
+|RID|DESCRIPTION|STATUS|
+|:--|:----------|:-----|
+|HLR1|ULTRASONIC INTERFACING|IMPLEMENTED|
+|HLR2|SERVO MOTOR INTERFCING|IMPLEMENTED|
+
+## LOW LEVEL REQUIREMENTS:
+
+|RID|DESCRIPTION|STATUS|
+|:--|:----------|:-----|
+|LLR1|ATMEGA INTERFACING WITH SERVO MOTOR|IMPLEMENTED|
+|LLR2|SERVO MOTOR INTERFACING WITH ATMEGA 328 |IMPLEMENTED|
   
 ## CONCLUSION 
 
