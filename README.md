@@ -22,6 +22,7 @@
 
 
 # GIT INSPECTOR : 
+[![Git Inspector](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Git%20Inspector.yml/badge.svg)](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Git%20Inspector.yml)
 
 
 
