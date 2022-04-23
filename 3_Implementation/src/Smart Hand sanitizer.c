@@ -11,13 +11,6 @@
  * 
  */
 
-const int trigPin = 7; // Trigger Pin of Ultrasonic Sensor
-const int echoPin = 8; // Echo Pin of Ultrasonic Sensor
-
-Servo Myservo;  //Create object Myservo of type Servo
-
-
-void setup() 
 {
   Serial.begin(9600); // Starting Serial Terminal
 
