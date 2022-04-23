@@ -19,7 +19,7 @@
 
 
 # CPPCHECK ANALYSIS :
-
+ [![Cppcheck Analysis](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Cppcheck%20Analysis.yml/badge.svg)](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Cppcheck%20Analysis.yml)
 
 
 # GIT INSPECTOR : 
