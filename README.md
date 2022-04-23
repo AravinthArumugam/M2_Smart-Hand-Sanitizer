@@ -12,6 +12,7 @@
 
 
 ## UNIT TESTING :
+[![Unit Testing](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Unit%20testing%20.yml/badge.svg)](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Unit%20testing%20.yml)
 
 
 
