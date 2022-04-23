@@ -1,0 +1,27 @@
+<circuit type="simulide_1.0" rev="1007" stepSize="1000000" stepsPS="1000000" NLsteps="100000" animate="0" >
+
+<item itemtype="SR04" CircId="SR04-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-184,-720" rotation="0" hflip="1" vflip="1" label="SR04-8" idLabPos="-16,-48" labelrot="0" valLabPos="0,0" valLabRot="0" />
+
+<item itemtype="MCU" CircId="mega328-7" mainComp="false" Show_id="true" Show_Val="false" Pos="-96,-524" rotation="0" hflip="1" vflip="1" label="atmega328-7" idLabPos="0,-20" labelrot="0" valLabPos="0,0" valLabRot="0" Frequency="16 MHz" Program="HAND_SANITIZER.ino.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+
+<item itemtype="Ground" CircId="Ground-31" mainComp="false" Show_id="false" Show_Val="false" Pos="156,-564" rotation="0" hflip="1" vflip="1" label="Ground-31" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Push" CircId="Push-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-232,-544" rotation="0" hflip="1" vflip="1" label="Push-39" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1 _Poles" />
+
+<item itemtype="Servo" CircId="Servo-81" mainComp="false" ShowProp="Speed" Show_id="true" Show_Val="true" Pos="-4,-636" rotation="0" hflip="1" vflip="1" label="Servo-81" idLabPos="-16,-40" labelrot="0" valLabPos="-16,20" valLabRot="0" Speed="0.2 sec/60º" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-86" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-40,-744" rotation="0" hflip="1" vflip="1" label="Voltage Source-86" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Value_Volt="5 V" MaxValue="5 V" />
+
+<item itemtype="Connector" uid="connector-89" startpinid="SR04-8-outpin" endpinid="mega328-7-PORTB0" pointList="-176,-672,-176,-412,-104,-412" />
+
+<item itemtype="Connector" uid="connector-90" startpinid="Push-39-pinP0" endpinid="mega328-7-PORTD7" pointList="-248,-544,-260,-544,-260,-524,-184,-524,-184,-420,-104,-420" />
+
+<item itemtype="Connector" uid="connector-91" startpinid="Push-39-switch0pinN" endpinid="SR04-8-trigpin" pointList="-216,-544,-216,-584,-188,-584,-188,-672,-184,-672" />
+
+<item itemtype="Connector" uid="connector-92" startpinid="Voltage Source-86-outPin" endpinid="Servo-81-in0" pointList="-12,-728,-12,-688,-76,-688,-76,-652,-52,-652" />
+
+<item itemtype="Connector" uid="connector-93" startpinid="Servo-81-in1" endpinid="Ground-31-Gnd" pointList="-52,-636,-100,-636,-100,-580,156,-580" />
+
+<item itemtype="Connector" uid="connector-94" startpinid="mega328-7-PORTD3" endpinid="Servo-81-in2" pointList="-104,-484,-140,-484,-140,-620,-52,-620" />
+
+</circuit>
