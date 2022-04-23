@@ -42,6 +42,9 @@
 
 
 # OFF MODE :
+![OFF MODE](https://user-images.githubusercontent.com/102281509/164884739-b14cccfb-13d0-4c15-9613-b99c636e1761.jpg)
 
 
 # ON MODE :
+![ON MODE](https://user-images.githubusercontent.com/102281509/164884744-6d000977-d19f-4a01-a0ba-2263a84c1e55.jpg)
+
