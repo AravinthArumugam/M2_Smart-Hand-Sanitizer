@@ -34,6 +34,7 @@
 
 
 # VALGRIND :
+[![Valgrind](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Valgrind.yml)
 
 
 
