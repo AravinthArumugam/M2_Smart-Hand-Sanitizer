@@ -30,7 +30,7 @@
 
 
 # BUILD ON LINUX :
-
+[![Build-Linux](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Build-Linux.yml/badge.svg)](https://github.com/AravinthArumugam/M2_Smart-Hand-Sanitizer/actions/workflows/Build-Linux.yml)
 
 
 # VALGRIND :
